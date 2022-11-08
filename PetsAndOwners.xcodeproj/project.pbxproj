@@ -7,23 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD4FEA51291AEB44007D967D /* JsonConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4FEA50291AEB44007D967D /* JsonConverter.swift */; };
+		FD978D43290FD667006F2B74 /* OwnerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD978D42290FD667006F2B74 /* OwnerTableViewCell.swift */; };
+		FD978D4529103595006F2B74 /* PetsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD978D4429103594006F2B74 /* PetsTableViewCell.swift */; };
+		FD978D4729103A26006F2B74 /* PetsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD978D4629103A26006F2B74 /* PetsCollectionViewController.swift */; };
+		FD978D4929103A98006F2B74 /* PetsCollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD978D4829103A98006F2B74 /* PetsCollectionViewModel.swift */; };
+		FD978D4B29104247006F2B74 /* PetCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD978D4A29104247006F2B74 /* PetCollectionViewCell.swift */; };
 		FDB8DBD6290BF5840025FDDC /* PetsAndOwnersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB8DBD5290BF5840025FDDC /* PetsAndOwnersApp.swift */; };
-		FDB8DBD8290BF5840025FDDC /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB8DBD7290BF5840025FDDC /* Persistence.swift */; };
 		FDB8DBDB290BF5840025FDDC /* PetsAndOwners.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FDB8DBD9290BF5840025FDDC /* PetsAndOwners.xcdatamodeld */; };
 		FDB8DBDD290BF5840025FDDC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB8DBDC290BF5840025FDDC /* ContentView.swift */; };
 		FDB8DBDF290BF5850025FDDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDB8DBDE290BF5850025FDDC /* Assets.xcassets */; };
 		FDB8DBE3290BF5850025FDDC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDB8DBE2290BF5850025FDDC /* Preview Assets.xcassets */; };
+		FDB8DBED290BF7620025FDDC /* PetsAndOwners.entitlements in Sources */ = {isa = PBXBuildFile; fileRef = FDB8DBE0290BF5850025FDDC /* PetsAndOwners.entitlements */; };
+		FDB8DBEF290BF8110025FDDC /* OwnersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB8DBEE290BF8110025FDDC /* OwnersViewController.swift */; };
+		FDB8DBF1290BF83A0025FDDC /* OwnersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB8DBF0290BF83A0025FDDC /* OwnersViewModel.swift */; };
+		FDB8DBF3290BF8A80025FDDC /* OwnersViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDB8DBF2290BF8A80025FDDC /* OwnersViewController.storyboard */; };
+		FDB8DBF5290BFA4F0025FDDC /* OwnersDataServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB8DBF4290BFA4F0025FDDC /* OwnersDataServices.swift */; };
+		FDB8DBFB290C00C90025FDDC /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB8DBFA290C00C90025FDDC /* Pet.swift */; };
+		FDB8DBFD290C016B0025FDDC /* OwnerDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB8DBFC290C016B0025FDDC /* OwnerDetailViewModel.swift */; };
+		FDB8DBFF290C0B1C0025FDDC /* AddNewOwnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB8DBFE290C0B1C0025FDDC /* AddNewOwnerViewController.swift */; };
+		FDB8DC01290C0CF80025FDDC /* AddNewOwnerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB8DC00290C0CF80025FDDC /* AddNewOwnerViewModel.swift */; };
+		FDB8DC03290C163B0025FDDC /* AddNewOwnerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB8DC02290C163B0025FDDC /* AddNewOwnerTableViewCell.swift */; };
+		FDB8DC07290C3AFA0025FDDC /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB8DC06290C3AFA0025FDDC /* AlertController.swift */; };
+		FDB8DC09290C46820025FDDC /* OwnerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB8DC08290C46820025FDDC /* OwnerDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FD4FEA50291AEB44007D967D /* JsonConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonConverter.swift; sourceTree = "<group>"; };
+		FD978D42290FD667006F2B74 /* OwnerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwnerTableViewCell.swift; sourceTree = "<group>"; };
+		FD978D4429103594006F2B74 /* PetsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsTableViewCell.swift; sourceTree = "<group>"; };
+		FD978D4629103A26006F2B74 /* PetsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsCollectionViewController.swift; sourceTree = "<group>"; };
+		FD978D4829103A98006F2B74 /* PetsCollectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsCollectionViewModel.swift; sourceTree = "<group>"; };
+		FD978D4A29104247006F2B74 /* PetCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetCollectionViewCell.swift; sourceTree = "<group>"; };
 		FDB8DBD2290BF5840025FDDC /* PetsAndOwners.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetsAndOwners.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDB8DBD5290BF5840025FDDC /* PetsAndOwnersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsAndOwnersApp.swift; sourceTree = "<group>"; };
-		FDB8DBD7290BF5840025FDDC /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		FDB8DBDA290BF5840025FDDC /* PetsAndOwners.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PetsAndOwners.xcdatamodel; sourceTree = "<group>"; };
 		FDB8DBDC290BF5840025FDDC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FDB8DBDE290BF5850025FDDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDB8DBE0290BF5850025FDDC /* PetsAndOwners.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PetsAndOwners.entitlements; sourceTree = "<group>"; };
 		FDB8DBE2290BF5850025FDDC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FDB8DBEE290BF8110025FDDC /* OwnersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwnersViewController.swift; sourceTree = "<group>"; };
+		FDB8DBF0290BF83A0025FDDC /* OwnersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwnersViewModel.swift; sourceTree = "<group>"; };
+		FDB8DBF2290BF8A80025FDDC /* OwnersViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = OwnersViewController.storyboard; path = ../../../../mvvm/mvvm/mvvm/View/OwnersViewController.storyboard; sourceTree = "<group>"; };
+		FDB8DBF4290BFA4F0025FDDC /* OwnersDataServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwnersDataServices.swift; sourceTree = "<group>"; };
+		FDB8DBFA290C00C90025FDDC /* Pet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
+		FDB8DBFC290C016B0025FDDC /* OwnerDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwnerDetailViewModel.swift; sourceTree = "<group>"; };
+		FDB8DBFE290C0B1C0025FDDC /* AddNewOwnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewOwnerViewController.swift; sourceTree = "<group>"; };
+		FDB8DC00290C0CF80025FDDC /* AddNewOwnerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewOwnerViewModel.swift; sourceTree = "<group>"; };
+		FDB8DC02290C163B0025FDDC /* AddNewOwnerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewOwnerTableViewCell.swift; sourceTree = "<group>"; };
+		FDB8DC06290C3AFA0025FDDC /* AlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
+		FDB8DC08290C46820025FDDC /* OwnerDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwnerDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +89,13 @@
 		FDB8DBD4290BF5840025FDDC /* PetsAndOwners */ = {
 			isa = PBXGroup;
 			children = (
+				FDB8DBEB290BF5CC0025FDDC /* ViewModel */,
+				FDB8DBEA290BF5BE0025FDDC /* View */,
+				FDB8DBE9290BF5B30025FDDC /* Model */,
 				FDB8DBD5290BF5840025FDDC /* PetsAndOwnersApp.swift */,
-				FDB8DBD7290BF5840025FDDC /* Persistence.swift */,
 				FDB8DBDC290BF5840025FDDC /* ContentView.swift */,
-				FDB8DBDE290BF5850025FDDC /* Assets.xcassets */,
 				FDB8DBE0290BF5850025FDDC /* PetsAndOwners.entitlements */,
-				FDB8DBD9290BF5840025FDDC /* PetsAndOwners.xcdatamodeld */,
+				FDB8DBDE290BF5850025FDDC /* Assets.xcassets */,
 				FDB8DBE1290BF5850025FDDC /* Preview Content */,
 			);
 			path = PetsAndOwners;
@@ -73,6 +107,61 @@
 				FDB8DBE2290BF5850025FDDC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FDB8DBE9290BF5B30025FDDC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FDB8DBD9290BF5840025FDDC /* PetsAndOwners.xcdatamodeld */,
+				FDB8DBF4290BFA4F0025FDDC /* OwnersDataServices.swift */,
+				FDB8DBFA290C00C90025FDDC /* Pet.swift */,
+				FD4FEA50291AEB44007D967D /* JsonConverter.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FDB8DBEA290BF5BE0025FDDC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FDB8DC05290C3AE30025FDDC /* Helpers */,
+				FDB8DC04290C1B5A0025FDDC /* Cells */,
+				FDB8DBF2290BF8A80025FDDC /* OwnersViewController.storyboard */,
+				FDB8DBEE290BF8110025FDDC /* OwnersViewController.swift */,
+				FDB8DBFE290C0B1C0025FDDC /* AddNewOwnerViewController.swift */,
+				FDB8DC08290C46820025FDDC /* OwnerDetailViewController.swift */,
+				FD978D4629103A26006F2B74 /* PetsCollectionViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FDB8DBEB290BF5CC0025FDDC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FDB8DBF0290BF83A0025FDDC /* OwnersViewModel.swift */,
+				FDB8DBFC290C016B0025FDDC /* OwnerDetailViewModel.swift */,
+				FDB8DC00290C0CF80025FDDC /* AddNewOwnerViewModel.swift */,
+				FD978D4829103A98006F2B74 /* PetsCollectionViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FDB8DC04290C1B5A0025FDDC /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FDB8DC02290C163B0025FDDC /* AddNewOwnerTableViewCell.swift */,
+				FD978D42290FD667006F2B74 /* OwnerTableViewCell.swift */,
+				FD978D4429103594006F2B74 /* PetsTableViewCell.swift */,
+				FD978D4A29104247006F2B74 /* PetCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		FDB8DC05290C3AE30025FDDC /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FDB8DC06290C3AFA0025FDDC /* AlertController.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDB8DBE3290BF5850025FDDC /* Preview Assets.xcassets in Resources */,
+				FDB8DBF3290BF8A80025FDDC /* OwnersViewController.storyboard in Resources */,
 				FDB8DBDF290BF5850025FDDC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,10 +235,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDB8DBFF290C0B1C0025FDDC /* AddNewOwnerViewController.swift in Sources */,
+				FD978D4929103A98006F2B74 /* PetsCollectionViewModel.swift in Sources */,
+				FD978D43290FD667006F2B74 /* OwnerTableViewCell.swift in Sources */,
+				FDB8DBED290BF7620025FDDC /* PetsAndOwners.entitlements in Sources */,
 				FDB8DBDB290BF5840025FDDC /* PetsAndOwners.xcdatamodeld in Sources */,
+				FDB8DC01290C0CF80025FDDC /* AddNewOwnerViewModel.swift in Sources */,
+				FD978D4B29104247006F2B74 /* PetCollectionViewCell.swift in Sources */,
 				FDB8DBD6290BF5840025FDDC /* PetsAndOwnersApp.swift in Sources */,
+				FDB8DBFB290C00C90025FDDC /* Pet.swift in Sources */,
+				FD978D4529103595006F2B74 /* PetsTableViewCell.swift in Sources */,
 				FDB8DBDD290BF5840025FDDC /* ContentView.swift in Sources */,
-				FDB8DBD8290BF5840025FDDC /* Persistence.swift in Sources */,
+				FDB8DBF1290BF83A0025FDDC /* OwnersViewModel.swift in Sources */,
+				FDB8DBEF290BF8110025FDDC /* OwnersViewController.swift in Sources */,
+				FDB8DC07290C3AFA0025FDDC /* AlertController.swift in Sources */,
+				FD978D4729103A26006F2B74 /* PetsCollectionViewController.swift in Sources */,
+				FDB8DC09290C46820025FDDC /* OwnerDetailViewController.swift in Sources */,
+				FD4FEA51291AEB44007D967D /* JsonConverter.swift in Sources */,
+				FDB8DC03290C163B0025FDDC /* AddNewOwnerTableViewCell.swift in Sources */,
+				FDB8DBFD290C016B0025FDDC /* OwnerDetailViewModel.swift in Sources */,
+				FDB8DBF5290BFA4F0025FDDC /* OwnersDataServices.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,7 +399,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = xyz.PetsAndOwners;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -329,7 +437,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = xyz.PetsAndOwners;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
