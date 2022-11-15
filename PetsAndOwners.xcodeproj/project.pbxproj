@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FD4FEA51291AEB44007D967D /* JsonConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4FEA50291AEB44007D967D /* JsonConverter.swift */; };
+		FD5375F029242BEB00208A30 /* OwnersViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD5375EF29242BEB00208A30 /* OwnersViewController.storyboard */; };
 		FD978D43290FD667006F2B74 /* OwnerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD978D42290FD667006F2B74 /* OwnerTableViewCell.swift */; };
 		FD978D4529103595006F2B74 /* PetsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD978D4429103594006F2B74 /* PetsTableViewCell.swift */; };
 		FD978D4729103A26006F2B74 /* PetsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD978D4629103A26006F2B74 /* PetsCollectionViewController.swift */; };
@@ -21,7 +22,6 @@
 		FDB8DBED290BF7620025FDDC /* PetsAndOwners.entitlements in Sources */ = {isa = PBXBuildFile; fileRef = FDB8DBE0290BF5850025FDDC /* PetsAndOwners.entitlements */; };
 		FDB8DBEF290BF8110025FDDC /* OwnersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB8DBEE290BF8110025FDDC /* OwnersViewController.swift */; };
 		FDB8DBF1290BF83A0025FDDC /* OwnersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB8DBF0290BF83A0025FDDC /* OwnersViewModel.swift */; };
-		FDB8DBF3290BF8A80025FDDC /* OwnersViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDB8DBF2290BF8A80025FDDC /* OwnersViewController.storyboard */; };
 		FDB8DBF5290BFA4F0025FDDC /* OwnersDataServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB8DBF4290BFA4F0025FDDC /* OwnersDataServices.swift */; };
 		FDB8DBFB290C00C90025FDDC /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB8DBFA290C00C90025FDDC /* Pet.swift */; };
 		FDB8DBFD290C016B0025FDDC /* OwnerDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB8DBFC290C016B0025FDDC /* OwnerDetailViewModel.swift */; };
@@ -34,6 +34,7 @@
 
 /* Begin PBXFileReference section */
 		FD4FEA50291AEB44007D967D /* JsonConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonConverter.swift; sourceTree = "<group>"; };
+		FD5375EF29242BEB00208A30 /* OwnersViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = OwnersViewController.storyboard; path = PetsAndOwners/View/OwnersViewController.storyboard; sourceTree = SOURCE_ROOT; };
 		FD978D42290FD667006F2B74 /* OwnerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwnerTableViewCell.swift; sourceTree = "<group>"; };
 		FD978D4429103594006F2B74 /* PetsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsTableViewCell.swift; sourceTree = "<group>"; };
 		FD978D4629103A26006F2B74 /* PetsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsCollectionViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +49,6 @@
 		FDB8DBE2290BF5850025FDDC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FDB8DBEE290BF8110025FDDC /* OwnersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwnersViewController.swift; sourceTree = "<group>"; };
 		FDB8DBF0290BF83A0025FDDC /* OwnersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwnersViewModel.swift; sourceTree = "<group>"; };
-		FDB8DBF2290BF8A80025FDDC /* OwnersViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = OwnersViewController.storyboard; path = ../../../../mvvm/mvvm/mvvm/View/OwnersViewController.storyboard; sourceTree = "<group>"; };
 		FDB8DBF4290BFA4F0025FDDC /* OwnersDataServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwnersDataServices.swift; sourceTree = "<group>"; };
 		FDB8DBFA290C00C90025FDDC /* Pet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
 		FDB8DBFC290C016B0025FDDC /* OwnerDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwnerDetailViewModel.swift; sourceTree = "<group>"; };
@@ -125,7 +125,6 @@
 			children = (
 				FDB8DC05290C3AE30025FDDC /* Helpers */,
 				FDB8DC04290C1B5A0025FDDC /* Cells */,
-				FDB8DBF2290BF8A80025FDDC /* OwnersViewController.storyboard */,
 				FDB8DBEE290BF8110025FDDC /* OwnersViewController.swift */,
 				FDB8DBFE290C0B1C0025FDDC /* AddNewOwnerViewController.swift */,
 				FDB8DC08290C46820025FDDC /* OwnerDetailViewController.swift */,
@@ -148,6 +147,7 @@
 		FDB8DC04290C1B5A0025FDDC /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				FD5375EF29242BEB00208A30 /* OwnersViewController.storyboard */,
 				FDB8DC02290C163B0025FDDC /* AddNewOwnerTableViewCell.swift */,
 				FD978D42290FD667006F2B74 /* OwnerTableViewCell.swift */,
 				FD978D4429103594006F2B74 /* PetsTableViewCell.swift */,
@@ -223,7 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDB8DBE3290BF5850025FDDC /* Preview Assets.xcassets in Resources */,
-				FDB8DBF3290BF8A80025FDDC /* OwnersViewController.storyboard in Resources */,
+				FD5375F029242BEB00208A30 /* OwnersViewController.storyboard in Resources */,
 				FDB8DBDF290BF5850025FDDC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
